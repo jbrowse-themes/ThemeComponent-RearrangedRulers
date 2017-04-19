@@ -1,0 +1,31 @@
+#GenomeBrowser div.dijitContentPane {
+	display: -webkit-box;
+	display: -moz-box;
+	display: box;
+
+	-webkit-box-orient: vertical;
+	-moz-box-orient: vertical;
+	box-orient: vertical;
+}
+
+#GenomeBrowser div.dijitContentPane div.menuBar {
+	-webkit-box-ordinal-group: 1;
+	-moz-box-ordinal-group: 1;
+	box-ordinal-group: 1;
+}
+#GenomeBrowser div.dijitContentPane div#navBox {
+	-webkit-box-ordinal-group: 2;
+	-moz-box-ordinal-group: 2;
+	box-ordinal-group: 2;
+}
+
+#GenomeBrowser div.dijitContentPane div.overview {
+	-webkit-box-ordinal-group: 3;
+	-moz-box-ordinal-group: 3;
+	box-ordinal-group: 3;
+}
+
+/* Remove the now useless location thing */
+div.locationTrap {
+	border: none;
+}
